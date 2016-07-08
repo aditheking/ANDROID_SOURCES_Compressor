@@ -11,7 +11,9 @@ First open rom.sh and replace cm with ur rom dir
 and run 
 ---
 chmod a+x rom.sh
+
 ./rom.sh
+
 -----
 
 
