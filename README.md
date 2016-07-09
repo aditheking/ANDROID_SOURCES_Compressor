@@ -1,19 +1,17 @@
-# ANDROID_SOURCES_Compressor
-Script to higly  compress android sources
+Script to higly Compress android sources
 ------
 
 
 How to USE 
 ----
 
-First open rom.sh and replace cm with ur rom dir 
+First open rom.sh and correct rom sources dir
 
 and run 
----
+
 chmod a+x rom.sh
-
+-----
 ./rom.sh
-
 -----
 
 
