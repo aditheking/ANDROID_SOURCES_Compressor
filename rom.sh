@@ -21,24 +21,11 @@ echo "*         WELCOME TO AUTO ROM COMPRESSER      *"
 echo "*         This Script is made to compress     *"
 echo "*                ROM Sources                  *"
 echo "*IF u got error just fix Dir for eg now its cm*"
-echo " =============================================="
-echo ""
-sleep 3
-cd /home/$USER/cm
-sleep 2
+echo " ============================================= "
 mkdir ../cm-repo
-sleep 2
 export XZ_OPT=9e
-sleep 1
 mv .repo ../cm-repo/
-sleep 2
 tar -zcvf ../cm-repo/cm-no-repo.tar.xz
-sleep 2
 cd ../cm-repo
-sleep 2
-tar -zcvf cm-repo.tar.xz .repo
-
+tar -zcvf cm-repo.tar.xz .
 echo "Make Compress rom sources completed in $(($(date +'%s') - $start)) seconds"
-sleep 30
-echo "Tar Help more info"
-tar --help
