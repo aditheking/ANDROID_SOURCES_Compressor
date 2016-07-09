@@ -32,11 +32,11 @@ export XZ_OPT=9e
 sleep 1
 mv .repo ../cm-repo/
 sleep 2
-tar -zcvf ../cm-no-repo.tar.xz
+tar -zcvf ../cm-repo/cm-no-repo.tar.xz
 sleep 2
 cd ../cm-repo
 sleep 2
-tar -zcvf cm-repo.tar.xz 
+tar -zcvf cm-repo.tar.xz .repo
 
 echo "Make Compress rom sources completed in $(($(date +'%s') - $start)) seconds"
 sleep 30
